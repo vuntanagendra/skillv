@@ -4,6 +4,7 @@ import numpy as np
 
 # Load the trained model
 classifier = joblib.load('model.joblib')
+st.title('Can Take A Loan OR Not:bank:')
 
 # Function to get user input for prediction
 def get_user_input():
